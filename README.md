@@ -7,7 +7,10 @@ Running VMs with “NAT Network” network setting can address VPN issue with VM
 VBoxManage modifyvm "VM name" --natdnsproxy1 on
 ```
 Use port forwarding (to access VMs from host).
-The individual VMs can access one another as needed on the NAT network.
+The individual VMs can access one another as needed on the NAT network.  Port forwarding can be found via Preferences->Network->NAT Networks->Edit->Port Forwading
+
+Port forwarding: 
+![alt text](images/portforwarding.png "Port forwarding")
 
 ### Hardware issues
 Running certain programs which may be I/O intensive, such [Kubernetes](https://github.com/coreos/etcd) which includes [etcd](https://github.com/coreos/etcd), on a VM via VirtualBox may require some settings adjustments depending on hardware.  Consider the following:
