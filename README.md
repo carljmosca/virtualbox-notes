@@ -1,5 +1,5 @@
 # VirtualBox Notes
-Notes for using VirtualBox
+Here is a collection of a few notes for using [VirtualBox](https://www.virtualbox.org/).  At the time of this writing, freely available virtualization for Windows, MacOS, and Linux thanks to [Oracle Corporation](https://www.oracle.com/index.html).  Given that I am a fan of cross-platform, I have been happily using VirtualBox for years now, which means I probably should have tried to put my notes in one place way before now.
 ### "NAT Network"
 Running VMs with “NAT Network” network setting can address VPN issue with VMs.  The [“natdnsproxy1” setting](https://www.virtualbox.org/manual/ch09.html#nat-adv-dns) allows the NAT engine to act as a DNS proxy so that VMs are not interrupted when the host DNS changes (i.e. on/off VPN).  To turn on this option, use the command below.
 
