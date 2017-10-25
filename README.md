@@ -1,4 +1,4 @@
-# virtualbox-notes
+# VirtualBox Notes
 Notes for using VirtualBox
 ### "NAT Network"
 Running VMs with “NAT Network” network setting can address VPN issue with VMs.  The [“natdnsproxy1” setting](https://www.virtualbox.org/manual/ch09.html#nat-adv-dns) allows the NAT engine to act as a DNS proxy so that VMs are not interrupted when the host DNS changes (i.e. on/off VPN).  To turn on this option, use the command below.
